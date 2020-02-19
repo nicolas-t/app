@@ -95,9 +95,9 @@
       "company": "Company",
       "title": "標題",
       "timezone": "タイムゾーン",
-      "locale": "Locale",
+      "locale": "地域",
       "avatar": "Avatar",
-      "theme": "Theme",
+      "theme": "テーマ",
       "2fa_secret": "Two-Factor Authentication"
     }
   },
