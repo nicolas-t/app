@@ -7,9 +7,9 @@
       "events": "Події",
       "moreEvents": "і ще {amount}...",
       "noEvents": "поки немає подій!",
-      "date": "Date",
+      "date": "Дата",
       "datetime": "Дата й час",
-      "time": "Time",
+      "time": "Час",
       "title": "Заголовок",
       "color": "Колір"
     },
@@ -32,7 +32,7 @@
       "events": "Події",
       "moreEvents": "і ще {amount}...",
       "noEvents": "поки немає подій!",
-      "date": "Date",
+      "date": "Дата",
       "content": "Content",
       "title": "Заголовок",
       "color": "Колір"
