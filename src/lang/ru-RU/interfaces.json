@@ -559,7 +559,7 @@
 		},
 		"switch": {
 			"switch": "Переключатель",
-			"label_on": "Вкл.",
+			"label_on": "Текст в положении \"вкл.\"",
 			"label_on_comment": "Label to show next to the toggle when the toggle is on",
 			"label_off": "Выкл.",
 			"label_off_comment": "Label to show next to the toggle when the toggle is off",
