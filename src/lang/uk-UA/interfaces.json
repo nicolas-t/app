@@ -4,7 +4,7 @@
 			"2fa-secret": "Пароль 2FA"
 		},
 		"button-group": {
-			"button_group": "Button Group",
+			"button_group": "Група кнопок",
 			"choices": "Choices",
 			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
 			"theme": "Тема інтерфейсу",
@@ -98,7 +98,7 @@
 			"localized": "Localized",
 			"localized_comment": "Show the date localized in the output",
 			"relative": "Show relative date",
-			"relative_comment": "Show the date relatively (eg 2 days ago)",
+			"relative_comment": "Показувати відносні дати (наприклад: 2 дні тому)",
 			"icon_left": "Icon Left",
 			"icon_left_comment": "Choose an optional icon to display on the left of the input",
 			"icon_right": "Icon Right",
@@ -113,7 +113,7 @@
 			"localized": "Localized",
 			"localized_comment": "Show the date localized in the output",
 			"relative": "Show relative time",
-			"relative_comment": "Show the time relatively (eg 50 minutes ago)",
+			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"icon_left": "Icon Left",
 			"icon_left_comment": "Choose an optional icon to display on the left of the input",
 			"icon_right": "Icon Right",
@@ -128,14 +128,14 @@
 		"datetime-created": {
 			"datetime_created": "Datetime Created",
 			"relative": "Show relative time",
-			"relative_comment": "Show the time relatively (eg 50 minutes ago)",
+			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"now": "You are creating this now",
 			"unknown": "Unknown"
 		},
 		"datetime-updated": {
 			"datetime_updated": "Datetime Updated",
 			"relative": "Show relative time",
-			"relative_comment": "Show the time relatively (eg 50 minutes ago)",
+			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"now": "You are creating this now",
 			"unknown": "Unknown"
 		},
@@ -327,7 +327,7 @@
 			"map_lat_comment": "Map will be centered at this latitude",
 			"map_lng": "Default Longitude",
 			"map_lng_comment": "Map will be centered at this longitude",
-			"height": "Height",
+			"height": "Висота",
 			"default_zoom": "Default Zoom",
 			"default_zoom_comment": "Default zoom level of the map",
 			"max_zoom": "Max Zoom",
@@ -558,7 +558,7 @@
 			"24hour_comment": "Show the time in 24-hour format (eg.: 15:30)"
 		},
 		"switch": {
-			"switch": "Switch",
+			"switch": "Перемикач",
 			"label_on": "Label (On)",
 			"label_on_comment": "Label to show next to the toggle when the toggle is on",
 			"label_off": "Label (Off)",
@@ -584,7 +584,7 @@
 			"color-active-comment": "Choose the active color"
 		},
 		"translation": {
-			"translation": "Translation",
+			"translation": "Переклад",
 			"language_field": "Language Field",
 			"language_field_comment": "The field that holds the language code in the related collection",
 			"languages": "Мови",
@@ -602,7 +602,7 @@
 			"placeholder_comment": "Додати заповнювач"
 		},
 		"owner": {
-			"owner": "Owner",
+			"owner": "Власник",
 			"avatar": "Аватар",
 			"name": "Ім’я",
 			"template": "Шаблон",
