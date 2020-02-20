@@ -20,13 +20,13 @@
 			"other": "Інше"
 		},
 		"calendar": {
-			"calendar": "Calendar",
+			"calendar": "Календар",
 			"min": "Мінімальна дата",
 			"min_comment": "Мінімальна дата, яку користувач може обрати",
 			"max": "Максимальна дата",
 			"max_comment": "Максимальна дата, яку користувач може обрати",
 			"formatting": "Формат дати",
-			"formatting_comment": "Follows [Unicode Technical Standard](https://date-fns.org/v2.8.1/docs/format). If left blank, a relative date will be used."
+			"formatting_comment": "Дотримується [Стандарту Unicode](https://date-fns.org/v2.8.1/docs/format). Якщо залишити порожнім, використовуватиметься відносна дата."
 		},
 		"checkboxes": {
 			"checkboxes": "Прапорці",
@@ -172,20 +172,20 @@
 		},
 		"file": {
 			"file": "Файл",
-			"view_type": "View Type",
-			"view_type_comment": "Select in what way you want to view the files",
-			"view_options": "View Options",
-			"view_options_comment": "Set the view options to use for the files",
+			"view_type": "Тип перегляду",
+			"view_type_comment": "Виберіть спосіб перегляду файлів",
+			"view_options": "Опції перегляду",
+			"view_options_comment": "Встановіть опції перегляду для файлів",
 			"view_query": "View Query",
 			"view_query_comment": "Set the view query to use for the files",
-			"filters": "Filters",
-			"filters_comment": "What filters to use",
-			"accept": "Accept File Types",
-			"accept_comment": "Set a list of MIME types that can be picked",
-			"allow_delete": "Allow Delete",
-			"allow_delete_comment": "Дозволяти користувачеві остаточно видалити пов'язаний файл через файловий інтерфейс",
-			"crop_preview": "Crop File Preview",
-			"crop_preview_comment": "Crops the file preview to fill the available space."
+			"filters": "Фільтри",
+			"filters_comment": "Які фільтри слід використовувати",
+			"accept": "Допустимі типи файлів",
+			"accept_comment": "Перелік MIME типів, які можна завантажити",
+			"allow_delete": "Дозволити видалення",
+			"allow_delete_comment": "Дозволяти користувачеві остаточно видалити файл через файловий інтерфейс",
+			"crop_preview": "Обрізувати для попереднього перегляду",
+			"crop_preview_comment": "Файл буде обрізано для попереднього перегляду, щоб заповнити доступний простір."
 		},
 		"file-preview": {
 			"file_preview": "Перегляд файлу",
@@ -201,7 +201,7 @@
 			"format_input_comment": "Enter the value using a dropdown for units",
 			"decimal": "Decimal",
 			"decimal_comment": "Show the value in decimal counting (10MB vs 10MiB)",
-			"crop_preview": "Crop Preview Images"
+			"crop_preview": "Обрізувати зображення попереднього перегляду"
 		},
 		"files": {
 			"files": "Файли",
@@ -217,8 +217,8 @@
 			"allow_create_comment": "Дозволяти користувачеві створювати новий елемент з цього інтерфейсу",
 			"allow_select": "Allow Select",
 			"allow_select_comment": "Дозволяти користувачеві обирати існуючий елемент",
-			"accept": "Accept File Types",
-			"accept_comment": "Set a list of MIME types that can be picked",
+			"accept": "Допустимі типи файлів",
+			"accept_comment": "Перелік MIME типів, які можна завантажити",
 			"edit_item": "Edit"
 		},
 		"hashed": {
