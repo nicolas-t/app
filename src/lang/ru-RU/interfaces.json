@@ -564,7 +564,7 @@
 			"label_off": "Выкл.",
 			"label_off_comment": "Label to show next to the toggle when the toggle is off",
 			"checkbox": "Отображать как флажок",
-			"checkbox_comment": "Display a checkbox instead of the default switch"
+			"checkbox_comment": "Показывать флажок вместо переключателя"
 		},
 		"toggle-icon": {
 			"toggle-icon": "Иконка",
