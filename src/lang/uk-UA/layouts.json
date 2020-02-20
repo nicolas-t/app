@@ -1,12 +1,12 @@
 {
   "layouts": {
     "calendar": {
-      "calendar": "Calendar",
+      "calendar": "Календар",
       "fields": "Поля",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
+      "today": "сьогодні",
+      "events": "Події",
+      "moreEvents": "і ще {amount}...",
+      "noEvents": "поки немає подій!",
       "date": "Date",
       "datetime": "Дата й час",
       "time": "Time",
@@ -28,10 +28,10 @@
     "timeline": {
       "timeline": "Часова шкала",
       "fields": "Поля",
-      "today": "today",
-      "events": "Events",
-      "moreEvents": "and {amount} more...",
-      "noEvents": "no events yet!",
+      "today": "сьогодні",
+      "events": "Події",
+      "moreEvents": "і ще {amount}...",
+      "noEvents": "поки немає подій!",
       "date": "Date",
       "content": "Content",
       "title": "Заголовок",
