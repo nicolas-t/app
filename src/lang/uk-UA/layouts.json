@@ -8,7 +8,7 @@
       "moreEvents": "and {amount} more...",
       "noEvents": "no events yet!",
       "date": "Date",
-      "datetime": "Datetime",
+      "datetime": "Дата й час",
       "time": "Time",
       "title": "Заголовок",
       "color": "Колір"
