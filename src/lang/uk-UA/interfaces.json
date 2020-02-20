@@ -559,11 +559,11 @@
 		},
 		"switch": {
 			"switch": "Перемикач",
-			"label_on": "Label (On)",
-			"label_on_comment": "Label to show next to the toggle when the toggle is on",
-			"label_off": "Label (Off)",
-			"label_off_comment": "Label to show next to the toggle when the toggle is off",
-			"checkbox": "Show as Checkbox",
+			"label_on": "Текст (увімк.)",
+			"label_on_comment": "Текст, що відображається при увімкненому перемикачі",
+			"label_off": "Текст (вимк.)",
+			"label_off_comment": "Текст, що відображається при вимкненому перемикачі",
+			"checkbox": "Відображати як прапорець",
 			"checkbox_comment": "Display a checkbox instead of the default switch"
 		},
 		"toggle-icon": {
@@ -632,11 +632,11 @@
 		},
 		"wysiwyg": {
 			"toolbar": "Кнопки панелі інструментів",
-			"toolbar_comment": "Show, hide, and reorder toolbar options",
+			"toolbar_comment": "Увімкніть, вимкніть чи змінюйте порядок кнопок в панелі інструментів",
 			"custom_formats": "Власне форматування",
 			"custom_formats_comment": "HTML обгортка для вмісту поля",
-			"tinymce_options": "TinyMCE Options",
-			"tinymce_options_comment": "Override any of [the TinyMCE init options](https://www.tiny.cloud/docs/configure/)."
+			"tinymce_options": "Параметри TinyMCE",
+			"tinymce_options_comment": "Редагування [параметрів TinyMCE](https://www.tiny.cloud/docs/configure/)."
 		}
 	}
 }
