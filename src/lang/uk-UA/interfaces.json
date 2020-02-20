@@ -22,9 +22,9 @@
 		"calendar": {
 			"calendar": "Calendar",
 			"min": "Minimum Date",
-			"min_comment": "Minimum date that can be chosen by the user",
+			"min_comment": "Мінімальна дата, яку користувач може обрати",
 			"max": "Maximum Date",
-			"max_comment": "Maximum date that can be chosen by the user",
+			"max_comment": "Максимальна дата, яку користувач може обрати",
 			"formatting": "Формат дати",
 			"formatting_comment": "Follows [Unicode Technical Standard](https://date-fns.org/v2.8.1/docs/format). If left blank, a relative date will be used."
 		},
@@ -84,7 +84,7 @@
 			"palette": "Palette",
 			"palette_comment": "Add color options as hex values",
 			"palette_only": "Palette Only",
-			"palette_only_comment": "Only allow the user to pick from the palette"
+			"palette_only_comment": "Дозволити користувачеві обрати тільки з палітри"
 		},
 		"color-palette": {
 			"color-picker": "Color Picker"
@@ -92,9 +92,9 @@
 		"date": {
 			"date": "Date",
 			"min": "Мінімальна дата",
-			"min_comment": "Minimum date that can be chosen by the user",
+			"min_comment": "Мінімальна дата, яку користувач може обрати",
 			"max": "Максимальна дата",
-			"max_comment": "Maximum date that can be chosen by the user",
+			"max_comment": "Максимальна дата, яку користувач може обрати",
 			"localized": "Localized",
 			"localized_comment": "Show the date localized in the output",
 			"relative": "Show relative date",
@@ -107,7 +107,7 @@
 		"datetime": {
 			"datetime": "Datetime",
 			"min": "Minimum time",
-			"min_comment": "Minimum time that can be chosen by the user",
+			"min_comment": "Мінімальний час, який користувач може обрати",
 			"max": "Maximum time",
 			"max_comment": "Maximum time that can be chosen by the user",
 			"localized": "Localized",
@@ -593,38 +593,38 @@
 			"template_placeholder": "{{title}} — {{body}}"
 		},
 		"user": {
-			"user": "User",
-			"avatar": "Avatar",
+			"user": "Користувач",
+			"avatar": "Аватар",
 			"name": "Ім’я",
 			"template": "Шаблон",
-			"template_comment": "How to format the users in the dropdown",
+			"template_comment": "Як форматувати користувачів у випадаючому меню",
 			"placeholder": "Заповнювач",
 			"placeholder_comment": "Add a placeholder"
 		},
 		"owner": {
 			"owner": "Owner",
-			"avatar": "Avatar",
+			"avatar": "Аватар",
 			"name": "Ім’я",
 			"template": "Шаблон",
-			"template_comment": "How to display the user on the item detail page",
+			"template_comment": "Як відображати користувача на сторінці детального перегляду",
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
 			"you": "You will be the creator",
 			"unknown": "Unknown"
 		},
 		"user-roles": {
-			"user-roles": "User Role",
+			"user-roles": "Роль користувача",
 			"choose_role": "Choose a role...",
 			"relational": "Реляційний",
 			"relational_comment": "Save as a relational record",
 			"show_public": "Show public role"
 		},
 		"user-updated": {
-			"user_updated": "User Updated",
-			"avatar": "Avatar",
+			"user_updated": "Користувача оновлено",
+			"avatar": "Аватар",
 			"name": "Ім’я",
 			"template": "Шаблон",
-			"template_comment": "How to display the user on the item detail page",
+			"template_comment": "Як відображати користувача на сторінці детального перегляду",
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
 			"you": "You will be the updater",
