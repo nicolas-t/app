@@ -81,16 +81,16 @@
 			"color": "Колір",
 			"format": "Output Format",
 			"format_comment": "In what data format to save the value",
-			"palette": "Palette",
+			"palette": "Палітра",
 			"palette_comment": "Add color options as hex values",
-			"palette_only": "Palette Only",
+			"palette_only": "Тільки палітра",
 			"palette_only_comment": "Дозволити користувачеві обрати тільки з палітри"
 		},
 		"color-palette": {
 			"color-picker": "Color Picker"
 		},
 		"date": {
-			"date": "Date",
+			"date": "Дата",
 			"min": "Мінімальна дата",
 			"min_comment": "Мінімальна дата, яку користувач може обрати",
 			"max": "Максимальна дата",
@@ -211,7 +211,7 @@
 			"preferences_comment": "Set what options to use for the modal",
 			"relation_not_setup": "The relationship hasn't been configured correctly",
 			"template": "Display Template",
-			"template_comment": "Choose how to display values on the item layouts",
+			"template_comment": "Виберіть спосіб відображення",
 			"template_placeholder": "{{movie.name}} — {{member.first_name}}",
 			"allow_create": "Allow Create",
 			"allow_create_comment": "Дозволяти користувачеві створювати новий елемент з цього інтерфейсу",
@@ -290,7 +290,7 @@
 			"preferences_comment": "Set what options to use for the modal",
 			"relation_not_setup": "The relationship hasn't been configured correctly",
 			"template": "Display Template",
-			"template_comment": "Choose how to display values on the item layouts",
+			"template_comment": "Виберіть спосіб відображення",
 			"template_placeholder": "{{movie.name}} — {{member.first_name}}",
 			"allow_create": "Allow Create",
 			"allow_create_comment": "Дозволяти користувачеві створювати новий елемент з цього інтерфейсу",
@@ -551,7 +551,7 @@
 			"serif_comment": "Використовувати більший serif шрифт"
 		},
 		"time": {
-			"time": "Time",
+			"time": "Час",
 			"include_seconds": "Include seconds",
 			"include_seconds_comment": "Include seconds in the interface",
 			"24hour": "Display 24 hour clock",
@@ -585,11 +585,11 @@
 		},
 		"translation": {
 			"translation": "Переклад",
-			"language_field": "Language Field",
-			"language_field_comment": "The field that holds the language code in the related collection",
+			"language_field": "Поле мови",
+			"language_field_comment": "Поле, що містить код мови у пов'язаній колекції",
 			"languages": "Мови",
 			"template": "Display Template",
-			"template_comment": "Choose how to display values on the item layouts",
+			"template_comment": "Виберіть спосіб відображення",
 			"template_placeholder": "{{title}} — {{body}}"
 		},
 		"user": {
