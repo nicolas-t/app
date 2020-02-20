@@ -105,14 +105,14 @@
 			"icon_right_comment": "Виберіть значок для відображення праворуч від вводу"
 		},
 		"datetime": {
-			"datetime": "Datetime",
-			"min": "Minimum time",
+			"datetime": "Дата й час",
+			"min": "Мінімальний час",
 			"min_comment": "Мінімальний час, який користувач може обрати",
-			"max": "Maximum time",
+			"max": "Максимальний час",
 			"max_comment": "Максимальний час, який користувач може обрати",
 			"localized": "Localized",
 			"localized_comment": "Show the date localized in the output",
-			"relative": "Show relative time",
+			"relative": "Показати відносний час",
 			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"icon_left": "Значок ліворуч",
 			"icon_left_comment": "Виберіть значок для відображення ліворуч від вводу",
@@ -122,19 +122,19 @@
 			"utc_comment": "Save to and display from UTC",
 			"default_to_current_datetime": "Default to current datetime",
 			"default_to_current_datetime_comment": "Sets the default value to current datetime",
-			"format": "Format",
+			"format": "Формат",
 			"format_comment": "The DateTime format to use for the input"
 		},
 		"datetime-created": {
 			"datetime_created": "Datetime Created",
-			"relative": "Show relative time",
+			"relative": "Показати відносний час",
 			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"now": "You are creating this now",
 			"unknown": "Unknown"
 		},
 		"datetime-updated": {
 			"datetime_updated": "Datetime Updated",
-			"relative": "Show relative time",
+			"relative": "Показати відносний час",
 			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"now": "You are creating this now",
 			"unknown": "Unknown"
@@ -241,7 +241,7 @@
 		},
 		"icon": {
 			"icon": "Іконка",
-			"search_placeholder": "Search for an icon..."
+			"search_placeholder": "Шукати значок..."
 		},
 		"interface-options": {
 			"interface-options": "Interface Options",
