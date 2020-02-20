@@ -7,7 +7,7 @@
 			"button_group": "Button Group",
 			"choices": "Choices",
 			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
-			"theme": "Interface Theme",
+			"theme": "Тема інтерфейсу",
 			"theme_comment": "Set the theme of the interface if supported",
 			"value": "Значення",
 			"flight": "Flight",
@@ -78,7 +78,7 @@
 			"include_system_comment": "Include system collections in the options"
 		},
 		"color": {
-			"color": "Color",
+			"color": "Колір",
 			"format": "Output Format",
 			"format_comment": "In what data format to save the value",
 			"palette": "Palette",
@@ -320,7 +320,7 @@
 			"map": "Карта",
 			"choices": "choices",
 			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
-			"theme": "Interface Theme",
+			"theme": "Тема інтерфейсу",
 			"theme_comment": "Set the theme of the interface if supported",
 			"value": "Значення",
 			"map_lat": "Default Latitude",
