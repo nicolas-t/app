@@ -130,14 +130,14 @@
 			"relative": "Показати відносний час",
 			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"now": "You are creating this now",
-			"unknown": "Unknown"
+			"unknown": "Невідомо"
 		},
 		"datetime-updated": {
 			"datetime_updated": "Datetime Updated",
 			"relative": "Показати відносний час",
 			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"now": "You are creating this now",
-			"unknown": "Unknown"
+			"unknown": "Невідомо"
 		},
 		"divider": {
 			"divider": "Розділювач",
@@ -610,7 +610,7 @@
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
 			"you": "You will be the creator",
-			"unknown": "Unknown"
+			"unknown": "Невідомо"
 		},
 		"user-roles": {
 			"user-roles": "Роль користувача",
@@ -628,7 +628,7 @@
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
 			"you": "You will be the updater",
-			"unknown": "Unknown"
+			"unknown": "Невідомо"
 		},
 		"wysiwyg": {
 			"toolbar": "Кнопки панелі інструментів",
