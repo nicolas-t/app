@@ -109,7 +109,7 @@
 			"min": "Minimum time",
 			"min_comment": "Мінімальний час, який користувач може обрати",
 			"max": "Maximum time",
-			"max_comment": "Maximum time that can be chosen by the user",
+			"max_comment": "Максимальний час, який користувач може обрати",
 			"localized": "Localized",
 			"localized_comment": "Show the date localized in the output",
 			"relative": "Show relative time",
@@ -168,7 +168,7 @@
 			"icon_comment": "Choose an optional icon to display on the left of the input",
 			"options_invalid": "The JSON options provided for the dropdown are invalid:",
 			"allow_other": "Allow Other",
-			"allow_other_comment": "Allow the user to add their own value"
+			"allow_other_comment": "Дозволити користувачеві додавати власне значення"
 		},
 		"file": {
 			"file": "Файл",
@@ -183,7 +183,7 @@
 			"accept": "Accept File Types",
 			"accept_comment": "Set a list of MIME types that can be picked",
 			"allow_delete": "Allow Delete",
-			"allow_delete_comment": "Allows the user to permanently delete the related file through the file interface",
+			"allow_delete_comment": "Дозволяти користувачеві остаточно видалити пов'язаний файл через файловий інтерфейс",
 			"crop_preview": "Crop File Preview",
 			"crop_preview_comment": "Crops the file preview to fill the available space."
 		},
@@ -214,9 +214,9 @@
 			"template_comment": "Choose how to display values on the item layouts",
 			"template_placeholder": "{{movie.name}} — {{member.first_name}}",
 			"allow_create": "Allow Create",
-			"allow_create_comment": "Allow the user to create a new item from this interface",
+			"allow_create_comment": "Дозволяти користувачеві створювати новий елемент з цього інтерфейсу",
 			"allow_select": "Allow Select",
-			"allow_select_comment": "Allow the user to select an existing item",
+			"allow_select_comment": "Дозволяти користувачеві обирати існуючий елемент",
 			"accept": "Accept File Types",
 			"accept_comment": "Set a list of MIME types that can be picked",
 			"edit_item": "Edit"
@@ -293,9 +293,9 @@
 			"template_comment": "Choose how to display values on the item layouts",
 			"template_placeholder": "{{movie.name}} — {{member.first_name}}",
 			"allow_create": "Allow Create",
-			"allow_create_comment": "Allow the user to create a new item from this interface",
+			"allow_create_comment": "Дозволяти користувачеві створювати новий елемент з цього інтерфейсу",
 			"allow_select": "Allow Select",
-			"allow_select_comment": "Allow the user to select an existing item"
+			"allow_select_comment": "Дозволяти користувачеві обирати існуючий елемент"
 		},
 		"many-to-one": {
 			"m2o": "Many to One",
@@ -374,7 +374,7 @@
 			"placeholder": "Заповнювач",
 			"placeholder_comment": "Введіть текст заповнювача",
 			"localized": "Localized",
-			"localized_comment": "Localize the output to the user's locale",
+			"localized_comment": "Перекладати вивід відповідно до мови обраної користувачем",
 			"icon_left": "Icon Left",
 			"icon_left_comment": "Choose an optional icon to display on the left of the input",
 			"icon_right": "Icon Right",
@@ -394,11 +394,11 @@
 			"template_comment": "How to format value on the item browse display",
 			"template_placeholder": "{{title}} — {{author}}",
 			"allow_create": "Allow Create",
-			"allow_create_comment": "Allow the user to create a new item from this interface",
+			"allow_create_comment": "Дозволяти користувачеві створювати новий елемент з цього інтерфейсу",
 			"allow_select": "Allow Select",
-			"allow_select_comment": "Allow the user to select an existing item",
+			"allow_select_comment": "Дозволяти користувачеві обирати існуючий елемент",
 			"delete_mode": "Delete mode",
-			"delete_mode_comment": "What to do when the user deselects an item",
+			"delete_mode_comment": "Що робити, коли користувач знімає вибір з елементу",
 			"sort_field": "Sort Field",
 			"sort_field_comment": "The field to store the sort value in"
 		},
@@ -452,7 +452,7 @@
 			"fields": "Поля",
 			"fields_comment": "What fields to show in each repeated row",
 			"limit": "Limit",
-			"limit_comment": "Maximum amount of rows the user can add",
+			"limit_comment": "Максимальна кількість рядків, які може додавати користувач",
 			"structure": "Structure",
 			"structure_comment": "Whether to save the JSON as an array of objects or single object with unique keys",
 			"structure_key": "Structure Key Field",
@@ -518,7 +518,7 @@
 			"validation": "Валідація",
 			"validation_comment": "A RegEx to check each individual value against",
 			"validation_message": "Validation Message",
-			"validation_message_comment": "A short message to show users if tag validation fails",
+			"validation_message_comment": "Коротке повідомлення що покажеться користувачеві, якщо перевірка мітки буде невдалою",
 			"validation_message_default": "Please enter a valid tag"
 		},
 		"text-input": {
@@ -599,7 +599,7 @@
 			"template": "Шаблон",
 			"template_comment": "Як форматувати користувачів у випадаючому меню",
 			"placeholder": "Заповнювач",
-			"placeholder_comment": "Add a placeholder"
+			"placeholder_comment": "Додати заповнювач"
 		},
 		"owner": {
 			"owner": "Owner",
