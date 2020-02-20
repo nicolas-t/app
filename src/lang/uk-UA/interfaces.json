@@ -21,15 +21,15 @@
 		},
 		"calendar": {
 			"calendar": "Calendar",
-			"min": "Minimum Date",
+			"min": "Мінімальна дата",
 			"min_comment": "Мінімальна дата, яку користувач може обрати",
-			"max": "Maximum Date",
+			"max": "Максимальна дата",
 			"max_comment": "Максимальна дата, яку користувач може обрати",
 			"formatting": "Формат дати",
 			"formatting_comment": "Follows [Unicode Technical Standard](https://date-fns.org/v2.8.1/docs/format). If left blank, a relative date will be used."
 		},
 		"checkboxes": {
-			"checkboxes": "Checkboxes",
+			"checkboxes": "Прапорці",
 			"choices": "Choices",
 			"choices_comment": "Enter JSON key value pairs with the saved value and text displayed.",
 			"wrap": "Wrap with Delimiter",
@@ -141,7 +141,7 @@
 		},
 		"divider": {
 			"divider": "Divider",
-			"style-name": "Divider style",
+			"style-name": "Стиль розділювача",
 			"style-comment": "Change the style of the Divider",
 			"weight-name": "Thickness of the line",
 			"weight-comment": "Change the thickness of the line",
@@ -149,10 +149,10 @@
 			"input-comment": "Type your text here",
 			"desc-name": "Divider description",
 			"desc-comment": "Add here a description",
-			"hr-name": "HR",
-			"hr-comment": "Display a horizontal rule?",
-			"margin-name": "Extra Margin",
-			"margin-comment": "Add extra margin above interface"
+			"hr-name": "Горизонтальна лінія (HR)",
+			"hr-comment": "Показувати горизонтальну лінію?",
+			"margin-name": "Додатковий відступ",
+			"margin-comment": "Додати відступ над інтерфейсом"
 		},
 		"dropdown": {
 			"dropdown": "Випадаюче меню",
@@ -236,7 +236,7 @@
 			"auto": "Automatic",
 			"small": "Small",
 			"medium": "Medium",
-			"large": "Large",
+			"large": "Великий",
 			"secured": "Value Secured"
 		},
 		"icon": {
@@ -539,7 +539,7 @@
 			"auto": "Automatic",
 			"small": "Small",
 			"medium": "Medium",
-			"large": "Large"
+			"large": "Великий"
 		},
 		"textarea": {
 			"textarea": "Text-Area",
@@ -595,7 +595,7 @@
 		"user": {
 			"user": "Користувач",
 			"avatar": "Аватар",
-			"name": "Ім’я",
+			"name": "Назва",
 			"template": "Шаблон",
 			"template_comment": "Як форматувати користувачів у випадаючому меню",
 			"placeholder": "Заповнювач",
@@ -604,7 +604,7 @@
 		"owner": {
 			"owner": "Власник",
 			"avatar": "Аватар",
-			"name": "Ім’я",
+			"name": "Назва",
 			"template": "Шаблон",
 			"template_comment": "Як відображати користувача на сторінці детального перегляду",
 			"display": "Display",
@@ -622,7 +622,7 @@
 		"user-updated": {
 			"user_updated": "Користувача оновлено",
 			"avatar": "Аватар",
-			"name": "Ім’я",
+			"name": "Назва",
 			"template": "Шаблон",
 			"template_comment": "Як відображати користувача на сторінці детального перегляду",
 			"display": "Display",
