@@ -299,7 +299,7 @@
   "write_access": "Schreibzugriff",
   "value_not_writeable": "{value} nicht schreibbar",
   "intelligent_defaults": "Directus setzt automatisch passende Standardeinstellungen für die erweiterten Konfigurationseinstellungen. Diese können hier überschrieben werden.",
-  "interface": "Interface | Interfaces",
+  "interface": "Schnittstelle | Schnittstellen",
   "interface_count": "Kein Feldtyp | Ein Feldtyp | {count} Feldtypen",
   "interface_has_no_options": "Diese Schnittstelle hat keine Optionen",
   "interface_settings": "Jeder Feldtyp kann perfekt an deine Bedürfnisse angepasst werden. Nachfolgend die verfügbaren Optionen für das Feld, aber nur ein paar sind erforderlich.",
