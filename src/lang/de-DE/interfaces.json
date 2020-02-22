@@ -335,11 +335,11 @@
 			"no_location": "Kein Ort gefunden",
 			"user_location_error_blocked": "You've disabled the location access. Kindly enable it from the browser addressbar to auto detect your location.",
 			"user_location_error": "There was an error while trying to get your location. Please try again.",
-			"address_to_code": "Address Input",
+			"address_to_code": "Adresseingabe",
 			"address_to_code_comment": "Add an input field to automatically get the geocodes from an address. Uses <a href=\"https://wiki.openstreetmap.org/wiki/Nominatim\">Nominatim</a>. Please check their usage policy.",
 			"address_to_code_error": "No geocode found for this address",
 			"clear_location": "Clear Location",
-			"my_location": "Set My Location",
+			"my_location": "Meinen Standort festlegen",
 			"address_location": "Set Address Location"
 		},
 		"markdown": {
@@ -347,7 +347,7 @@
 			"edit": "Bearbeiten",
 			"preview": "Vorschau",
 			"tabbed_preview": "Registerkarten-Vorschau",
-			"tabbed_preview_comment": "How to display the editor and preview",
+			"tabbed_preview_comment": "Wie der Editor und die Vorschau angezeigt werden",
 			"tabbed_preview_on": "Registerkarten-Vorschau",
 			"tabbed_preview_off": "Side-by-side Preview",
 			"rows": "Reihen",
@@ -383,8 +383,8 @@
 			"monospace_comment": "Use a monospace font"
 		},
 		"one-to-many": {
-			"o2m": "One to Many",
-			"select_items": "Select the items",
+			"o2m": "1 zu n",
+			"select_items": "Elemente auswählen",
 			"relation_not_setup": "Die relationale Beziehung wurde nicht korrekt konfiguriert",
 			"visible_columns": "Sichtbare Spalten",
 			"visible_columns_comment": "Fügen Sie ein CSV der Spalten hinzu, die Sie als Vorschau anzeigen möchten",
@@ -397,9 +397,9 @@
 			"allow_create_comment": "Dem Benutzer erlauben, ein neues Element aus dieser Schnittstelle zu erstellen",
 			"allow_select": "Auswahl erlauben",
 			"allow_select_comment": "Dem Benutzer erlauben, ein vorhandenes Element auszuwählen",
-			"delete_mode": "Delete mode",
+			"delete_mode": "Löschmodus",
 			"delete_mode_comment": "What to do when the user deselects an item",
-			"sort_field": "Sort Field",
+			"sort_field": "Sortierfeld",
 			"sort_field_comment": "The field to store the sort value in"
 		},
 		"password": {
@@ -453,7 +453,7 @@
 			"fields_comment": "What fields to show in each repeated row",
 			"limit": "Limit",
 			"limit_comment": "Maximum amount of rows the user can add",
-			"structure": "Structure",
+			"structure": "Struktur",
 			"structure_comment": "Whether to save the JSON as an array of objects or single object with unique keys",
 			"structure_key": "Structure Key Field",
 			"structure_key_comment": "When using an object for the JSON structure, this value controls what field to use for the key values",
@@ -465,21 +465,21 @@
 		"slider": {
 			"slider": "Slider",
 			"min": "Minimum",
-			"min_comment": "The minimum valid value",
+			"min_comment": "Der minimale gültige Wert",
 			"max": "Maximum",
-			"max_comment": "The maximum valid value",
-			"step": "Step",
+			"max_comment": "Der maximale gültige Wert",
+			"step": "Schritt",
 			"step_comment": "Increments at which the value can be set",
-			"unit": "Unit",
+			"unit": "Einheit",
 			"unit_comment": "Show an unit next to the slider value, e.g. 15 Pounds"
 		},
 		"slug": {
 			"slug": "Slug",
 			"placeholder_name": "Platzhalter",
-			"placeholder_comment": "The placeholder text to show",
-			"force_lowercase": "Force Lowercase",
-			"force_lowercase_comment": "Makes sure the slug is in lowercase",
-			"mirrored_field": "Mirrored Field",
+			"placeholder_comment": "Der anzuzeigende Platzhaltertext",
+			"force_lowercase": "Kleinbuchstaben erzwingen",
+			"force_lowercase_comment": "Stellt sicher, dass der Slug in Kleinbuchstaben ist",
+			"mirrored_field": "Gespiegeltes Feld",
 			"mirrored_field_comment": "Keep the slug up to date with another (text) field",
 			"only_on_create": "Only on Create",
 			"only_on_create_comment": "Allow the slug to be edited only when creating a new item"
@@ -496,13 +496,13 @@
 			"published": "Published",
 			"under_review": "Under Review",
 			"draft": "Draft",
-			"deleted": "Deleted"
+			"deleted": "Gelöscht"
 		},
 		"tags": {
 			"tags": "Stichwörter",
 			"alphabetize": "Alphabetize tags",
 			"alphabetize_comment": "Will rearrange tags to be alphabetical",
-			"lowercase": "Force Lowercase",
+			"lowercase": "Kleinbuchstaben erzwingen",
 			"lowercase_comment": "Convert all tags to lowercase",
 			"wrap": "Wrap with delimiter",
 			"wrap_comment": "Verpacken Sie die Werte mit einem Begrenzungspaar, um eine genaue Suche nach einem einzelnen Wert zu ermöglichen",
@@ -586,20 +586,20 @@
 		"translation": {
 			"translation": "Übersetzung",
 			"language_field": "Language Field",
-			"language_field_comment": "The field that holds the language code in the related collection",
+			"language_field_comment": "Das Feld, das den Sprachcode in der zugehörigen Sammlung enthält",
 			"languages": "Languages",
 			"template": "Anzeigevorlage",
 			"template_comment": "Wählen Sie, wie die Werte auf den Positionslayouts angezeigt werden sollen",
-			"template_placeholder": "{{title}} — {{body}}"
+			"template_placeholder": "{{title}} — {{body}}"
 		},
 		"user": {
-			"user": "User",
+			"user": "Benutzer",
 			"avatar": "Avatar",
 			"name": "Name",
 			"template": "Vorlage",
-			"template_comment": "How to format the users in the dropdown",
+			"template_comment": "Formatierung der Nutzer im Dropdown",
 			"placeholder": "Platzhalter",
-			"placeholder_comment": "Add a placeholder"
+			"placeholder_comment": "Platzhalter hinzufügen"
 		},
 		"owner": {
 			"owner": "Besitzer",
@@ -609,33 +609,33 @@
 			"template_comment": "How to display the user on the item detail page",
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
-			"you": "You will be the creator",
+			"you": "Sie werden der Ersteller sein",
 			"unknown": "Unbekannt"
 		},
 		"user-roles": {
-			"user-roles": "User Role",
-			"choose_role": "Choose a role...",
+			"user-roles": "Benutzerrolle",
+			"choose_role": "Wählen Sie eine Rolle...",
 			"relational": "Beziehung",
-			"relational_comment": "Save as a relational record",
-			"show_public": "Show public role"
+			"relational_comment": "Als relationalen Datensatz speichern",
+			"show_public": "Zeige öffentliches Profil"
 		},
 		"user-updated": {
-			"user_updated": "User Updated",
+			"user_updated": "Nutzer aktualisiert",
 			"avatar": "Avatar",
 			"name": "Name",
 			"template": "Vorlage",
 			"template_comment": "How to display the user on the item detail page",
 			"display": "Display",
 			"display_comment": "How to display the user on the item browse page",
-			"you": "You will be the updater",
+			"you": "Sie werden der Ersteller sein",
 			"unknown": "Unbekannt"
 		},
 		"wysiwyg": {
-			"toolbar": "Toolbar Options",
-			"toolbar_comment": "Show, hide, and reorder toolbar options",
-			"custom_formats": "Custom Formats",
-			"custom_formats_comment": "Custom HTML wrappers for content",
-			"tinymce_options": "TinyMCE Options",
+			"toolbar": "Toolbar Optionen",
+			"toolbar_comment": "Toolbar Optionen anzeigen, verstecken und neu ordnen",
+			"custom_formats": "Benutzerdefiniertes Format",
+			"custom_formats_comment": "Benutzerdefinierte HTML-Wrapper für Inhalte",
+			"tinymce_options": "TinyMCE Optionen",
 			"tinymce_options_comment": "Override any of [the TinyMCE init options](https://www.tiny.cloud/docs/configure/)."
 		}
 	}
