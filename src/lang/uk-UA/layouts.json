@@ -16,10 +16,10 @@
     "cards": {
       "cards": "Картки",
       "title": "Заголовок",
-      "subtitle": "Subtitle",
-      "src": "Image Source",
+      "subtitle": "Підзаголовок",
+      "src": "Джерело зображення",
       "content": "Body Content",
-      "fit": "Fit"
+      "fit": "Найкраще заповнення"
     },
     "tabular": {
       "tabular": "Таблиця",
@@ -33,7 +33,7 @@
       "moreEvents": "і ще {amount}...",
       "noEvents": "поки немає подій!",
       "date": "Дата",
-      "content": "Content",
+      "content": "Контент",
       "title": "Заголовок",
       "color": "Колір"
     }
