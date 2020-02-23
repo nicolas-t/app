@@ -95,8 +95,8 @@
 			"min_comment": "Мінімальна дата, яку користувач може обрати",
 			"max": "Максимальна дата",
 			"max_comment": "Максимальна дата, яку користувач може обрати",
-			"localized": "Localized",
-			"localized_comment": "Show the date localized in the output",
+			"localized": "Локалізувати",
+			"localized_comment": "Локалізувати дату при виводі",
 			"relative": "Show relative date",
 			"relative_comment": "Показувати відносні дати (наприклад: 2 дні тому)",
 			"icon_left": "Значок ліворуч",
@@ -110,8 +110,8 @@
 			"min_comment": "Мінімальний час, який користувач може обрати",
 			"max": "Максимальний час",
 			"max_comment": "Максимальний час, який користувач може обрати",
-			"localized": "Localized",
-			"localized_comment": "Show the date localized in the output",
+			"localized": "Локалізувати",
+			"localized_comment": "Локалізувати дату при виводі",
 			"relative": "Показати відносний час",
 			"relative_comment": "Показувати відносний час (наприклад: 50 хвилин тому)",
 			"icon_left": "Значок ліворуч",
@@ -356,7 +356,7 @@
 			"placeholder_comment": "Введіть текст заповнювача"
 		},
 		"multiselect": {
-			"multiselect": "Multi-Select",
+			"multiselect": "Множинний вибір",
 			"choices": "Варіанти",
 			"choices_comment": "Enter JSON key value pairs with the saved value and displayed text",
 			"placeholder": "Заповнювач",
@@ -373,14 +373,14 @@
 			"numeric": "Цифровий",
 			"placeholder": "Заповнювач",
 			"placeholder_comment": "Введіть текст заповнювача",
-			"localized": "Localized",
-			"localized_comment": "Перекладати вивід відповідно до мови обраної користувачем",
+			"localized": "Локалізувати",
+			"localized_comment": "Локалізувати відповідно до мови користувача",
 			"icon_left": "Значок ліворуч",
 			"icon_left_comment": "Виберіть значок для відображення ліворуч від вводу",
 			"icon_right": "Значок праворуч",
 			"icon_right_comment": "Виберіть значок для відображення праворуч від вводу",
-			"monospace": "Monospace",
-			"monospace_comment": "Use a monospace font"
+			"monospace": "Моноширинний шрифт",
+			"monospace_comment": "Використовувати моноширинний шрифт"
 		},
 		"one-to-many": {
 			"o2m": "Один до багатьох",
@@ -423,8 +423,8 @@
 		"primary-key": {
 			"primary_key": "Первинний ключ",
 			"immutable": "Can not be changed",
-			"monospace": "Monospace",
-			"monospace_comment": "Use a monospace font"
+			"monospace": "Моноширинний шрифт",
+			"monospace_comment": "Використовувати моноширинний шрифт"
 		},
 		"radio-buttons": {
 			"radio": "Radio Buttons",
@@ -489,8 +489,8 @@
 		},
 		"status": {
 			"status": "Статус",
-			"status_mapping": "Status Mapping",
-			"status_mapping_comment": "Enter JSON status options",
+			"status_mapping": "Налаштування станів",
+			"status_mapping_comment": "Налаштування станів у форматі JSON",
 			"simple_badge": "Simple Badge",
 			"simple_badge_comment": "Displays a colored dot on the item listing page.",
 			"published": "Опубліковано",
@@ -534,8 +534,8 @@
 			"icon_right_comment": "Виберіть значок для відображення праворуч від вводу",
 			"format": "Гарний вивід",
 			"format_comment": "Конвертувати у великі букви",
-			"monospace": "Monospace",
-			"monospace_comment": "Use a monospace font",
+			"monospace": "Моноширинний шрифт",
+			"monospace_comment": "Використовувати моноширинний шрифт",
 			"auto": "Automatic",
 			"small": "Малий",
 			"medium": "Середній",
