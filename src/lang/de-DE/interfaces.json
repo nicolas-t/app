@@ -148,7 +148,7 @@
 			"input-name": "Divider text",
 			"input-comment": "Geben Sie Ihren Text hier ein",
 			"desc-name": "Divider description",
-			"desc-comment": "Add here a description",
+			"desc-comment": "Beschreibung hinzufügen",
 			"hr-name": "HR",
 			"hr-comment": "Display a horizontal rule?",
 			"margin-name": "Zusätzlicher Abstand",
@@ -408,7 +408,7 @@
 			"hide_comment": "Punkte anstatt der eingegebenen Zeichen anzeigen",
 			"placeholder": "Platzhalter",
 			"placeholder_comment": "Platzhalter-Text eingeben",
-			"confirm_placeholder": "Confirm password...",
+			"confirm_placeholder": "Kennwort wiederholen...",
 			"show_hash": "Hash-Ausgabe anzeigen",
 			"show_hash_comment": "Gespeicherten Hash-Wert anzeigen",
 			"hashing_type": "Hashing-Typ",
@@ -418,11 +418,11 @@
 			"preview": "Vorschau",
 			"url_template": "URL Template",
 			"url_template_comment": "A mustache template for a URL to preview content",
-			"preview_item": "Preview this item"
+			"preview_item": "Vorschau dieses Elements"
 		},
 		"primary-key": {
 			"primary_key": "Primärschlüssel",
-			"immutable": "Can not be changed",
+			"immutable": "Kann nicht geändert werden",
 			"monospace": "Monospace",
 			"monospace_comment": "Use a monospace font"
 		},
@@ -437,8 +437,8 @@
 		"rating": {
 			"rating": "Rating",
 			"value": "Wert",
-			"active_color": "Active Color",
-			"active_color_comment": "Active color of selected stars",
+			"active_color": "Aktive Farbe",
+			"active_color_comment": "Aktive Farbe der ausgewählten Sterne",
 			"max_stars": "Max Stars",
 			"max_stars_comment": "Number of maximum rating allowed",
 			"display": "Display",
@@ -448,7 +448,7 @@
 			"repeater": "Repeater",
 			"template": "Anzeigevorlage",
 			"template_comment": "How to format value on the item browse display and inline preview",
-			"template_placeholder": "{{title}} — ({{author}})",
+			"template_placeholder": "{{title}} — ({{author}})",
 			"fields": "Felder",
 			"fields_comment": "What fields to show in each repeated row",
 			"limit": "Limit",
@@ -580,7 +580,7 @@
 			"text-active-placeholder": "Geben Sie hier Ihren Text ein",
 			"icon-active-name": "Active Icon",
 			"icon-active-comment": "Choose an active icon",
-			"color-active-name": "Active Color",
+			"color-active-name": "Aktive Farbe",
 			"color-active-comment": "Choose the active color"
 		},
 		"translation": {
