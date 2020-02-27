@@ -40,6 +40,9 @@
 			<button type="button" @click="$emit('remove')">
 				<v-icon name="delete_outline" class="remove" />
 			</button>
+			<button v-if="duplicable" type="button" @click="$emit('duplicate')">
+				<v-icon name="queue" class="duplicate" />
+			</button>
 		</div>
 		<div v-if="inline === false" v-show="open" class="body">
 			<v-form
@@ -73,6 +76,10 @@ export default {
 		template: {
 			type: String,
 			default: null
+		},
+		duplicable: {
+			type: Boolean,
+			default: false
 		},
 		open: {
 			type: Boolean,
