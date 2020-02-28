@@ -37,11 +37,16 @@
 					{{ showPlaceholder ? placeholder : displayValue }}
 				</button>
 			</div>
-			<button type="button" @click="$emit('remove')">
+
+			<v-contextual-menu
+				v-if="duplicable"
+				class="more-options"
+				placement="bottom-end"
+				:options="rowOptions"
+				@click="rowOptionsClicked"
+			></v-contextual-menu>
+			<button v-else type="button" @click="$emit('remove')">
 				<v-icon name="delete_outline" class="remove" />
-			</button>
-			<button v-if="duplicable" type="button" @click="$emit('duplicate')">
-				<v-icon name="queue" class="duplicate" />
 			</button>
 		</div>
 		<div v-if="inline === false" v-show="open" class="body">
@@ -112,6 +117,31 @@ export default {
 			});
 
 			return fieldsHaveValue === false;
+		},
+		rowOptions() {
+			return [
+				{
+					text: this.$t('delete'),
+					icon: 'delete_outline'
+				},
+				{
+					text: this.$t('duplicate'),
+					icon: 'control_point_duplicate'
+				}
+			];
+		}
+	},
+	methods: {
+		rowOptionsClicked(option) {
+			switch (option) {
+				case 0:
+					this.$emit('remove');
+					break;
+				case 1:
+					this.$emit('duplicate');
+					break;
+				default:
+			}
 		}
 	}
 };
