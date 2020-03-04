@@ -9,9 +9,14 @@
 			icon-left="search"
 		></v-input>
 		<div v-show="searchText.length === 0" class="icons-view">
-			<details v-for="(icongroup, groupname) in icons" :key="groupname" open>
+			<details
+				v-for="(icongroup, groupname) in icons"
+				:key="groupname"
+				@toggle="handleIconGroupToggle($event, groupname)"
+				:open="openIconGroups[groupname] ? 'open' : undefined"
+			>
 				<summary>{{ $helpers.formatTitle(groupname) }}</summary>
-				<div>
+				<div v-if="openIconGroups[groupname]">
 					<button
 						v-for="icon in icongroup"
 						:key="icon"
@@ -50,7 +55,8 @@ export default {
 	mixins: [mixin],
 	data() {
 		return {
-			searchText: ''
+			searchText: '',
+			openIconGroups: {}
 		};
 	},
 	computed: {
@@ -62,6 +68,11 @@ export default {
 		},
 		filteredArray() {
 			return this.iconsArray.filter(icon => icon.includes(this.searchText.toLowerCase()));
+		}
+	},
+	methods: {
+		handleIconGroupToggle($event, groupname) {
+			this.$set(this.openIconGroups, groupname, !this.openIconGroups[groupname]);
 		}
 	}
 };
