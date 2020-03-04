@@ -12,7 +12,7 @@
 			<details
 				v-for="(icongroup, groupname) in icons"
 				:key="groupname"
-				@toggle="handleIconGroupToggle($event, groupname)"
+				@toggle="handleIconGroupToggle(groupname)"
 				:open="openIconGroups[groupname] ? 'open' : undefined"
 			>
 				<summary>{{ $helpers.formatTitle(groupname) }}</summary>
@@ -71,7 +71,7 @@ export default {
 		}
 	},
 	methods: {
-		handleIconGroupToggle($event, groupname) {
+		handleIconGroupToggle(groupname) {
 			this.$set(this.openIconGroups, groupname, !this.openIconGroups[groupname]);
 		}
 	}
