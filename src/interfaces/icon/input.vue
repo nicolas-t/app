@@ -104,6 +104,14 @@ export default {
 		summary {
 			margin: 20px 2px 5px;
 			cursor: pointer;
+			color: var(--modal-tab-text-color);
+
+			&:hover {
+				color: var(--page-text-color);
+			}
+		}
+
+		&[open] summary {
 			color: var(--page-text-color);
 		}
 	}
